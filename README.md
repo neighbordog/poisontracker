@@ -7,7 +7,7 @@ PoisonTracker is a AddOn for World of Warcraft. It keeps track of your poisons a
 Installation
 --------------------------------------------------------
 
-Header over to https://mods.curse.com/addons/wow/273694-poisontracker and install it via the Twitch (formerly Curse) App.
+Head over to https://mods.curse.com/addons/wow/273694-poisontracker and install it via the Twitch (formerly Curse) App.
 
 
 How does it work?
