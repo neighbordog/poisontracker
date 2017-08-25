@@ -1,7 +1,7 @@
 PoisonTracker
 =============
 
-PoisonTracker keeps track of your poisons and reminds you before they run out.
+PoisonTracker is a Mod for World of Warcraft. It keeps track of your poisons and reminds you before they run out.
 
 
 How does it work?
