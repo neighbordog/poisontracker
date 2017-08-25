@@ -4,18 +4,24 @@ PoisonTracker
 PoisonTracker is a AddOn for World of Warcraft. It keeps track of your poisons and reminds you before they run out.
 
 
+Installation
+--------------------------------------------------------
+
+Header over to https://mods.curse.com/addons/wow/273694-poisontracker and install it via the Twitch (formerly Curse) App.
+
+
 How does it work?
 --------------------------------------------------------
 
-<span style="font-weight: 400;">When one of your poisons (for example Deadly Poison) ran out or is about to run out, an ability icon of the poison will pop up in the center of your screen.</span>
+When one of your poisons (for example Deadly Poison) ran out or is about to run out, an ability icon of the poison will pop up in the center of your screen.
 
  
 
 Features
 -----------------------------------------------
 
--   <span style="font-weight: 400;">Never bothers you inside cities and rest zones</span>
--   <span style="font-weight: 400;">Configure when and which poisons should be tracked</span>
+-   Never bothers you inside cities and rest zones
+-  Configure when and which poisons should be tracked
 
  
 
