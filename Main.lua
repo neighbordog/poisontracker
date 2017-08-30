@@ -120,11 +120,21 @@ function PoisonTracker:OnInitialize()
                     desc = "Locks and unlocks the position of the GUI",
                     type = "toggle",
                     set = function(info,val)
-                        self.db.profile.lock = val
-                        self:ToggleMovable(val)
+                        if val then
+                            lock_val = false
+                        else
+                            lock_val = true
+                        end
+
+                        self.db.profile.lock = lock_val
+                        self:ToggleMovable(lock_val)
                     end,
                     get = function(info)
-                        return self.db.profile.lock
+                        if self.db.profile.lock then
+                            return false
+                        else
+                            return true
+                        end
                     end
                 },
                 reset = {
