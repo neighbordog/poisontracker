@@ -1,4 +1,4 @@
-## Interface: 40000
+## Interface: 70300
 ## Title: PoisonTracker
 ## Notes: Lets you keep track of your poisons and reminds you before they run out.
 ## Author: JinzoYokai
