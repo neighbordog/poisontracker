@@ -15,15 +15,13 @@ How does it work?
 
 When one of your poisons (for example Deadly Poison) ran out or is about to run out, an ability icon of the poison will pop up in the center of your screen.
 
- 
 
 Features
 -----------------------------------------------
 
--   Never bothers you inside cities and rest zones
+-  Never bothers you inside cities and rest zones
 -  Configure when and which poisons should be tracked
 
- 
 
 Configuration
 ----------------------------------------------------
@@ -33,21 +31,20 @@ To configure PoisonTracker go to ESC-&gt;Interface-&gt;PoisonTracker there you c
 
 You may also configure PoisonTracker via the built-in SlashCommand /pt (or /poisontracker). For example to activate the tracking of wound poison run
 
- 
 
 **/pt poisons wound\_poison on**
 
- 
 
 Changelog
 ---------
 
--   8/22/2017 - Ver 0.1.4 - Fixed bug where Addon was activate while User was not in the right spec
--   8/22/2017 - Ver 0.1.3 - Fixed bug that allowed click through on action icons and dded lock option
--   8/9/2017 - Ver. 0.1.2 - GUI is now draggable and added option for icon size
--   8/6/2017 - Ver. 0.1.1 - Icons now show outside of cities as well (used to be instances and PVP only)
+-   10/29/2018 - Ver 0.1.6 - Added compatibility for BFA 8.0.1
+-   8/30/2017  - Ver 0.1.5 - Fixed bug with locking icons location
+-   8/22/2017  - Ver 0.1.4 - Fixed bug where Addon was activate while User was not in the right spec
+-   8/22/2017  - Ver 0.1.3 - Fixed bug that allowed click through on action icons and dded lock option
+-   8/9/2017   - Ver 0.1.2 - GUI is now draggable and added option for icon size
+-   8/6/2017   - Ver 0.1.1 - Icons now show outside of cities as well (used to be instances and PvP only)
 
- 
 
 Feedback
 ------------------------------------------------

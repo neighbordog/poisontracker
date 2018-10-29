@@ -5,7 +5,7 @@ PoisonTracker = LibStub("AceAddon-3.0"):NewAddon("PoisonTracker", "AceBucket-3.0
 -- # Constants
 --
 
-local VERSION = "0.1.4"
+local VERSION = "0.1.6"
 
 -- Trackable poisons and their meta data
 local ICONT = {
@@ -99,8 +99,8 @@ function PoisonTracker:OnInitialize()
             type = "group",
             args = {
                 threshold = {
-                    name = "Notification Treshold",
-                    desc = "Sets the threshold when the notification will be displayed",
+                    name = "Notification Treshold (in seconds)",
+                    desc = "Sets the threshold (in seconds) when the notification will be displayed",
                     type = "input",
                     set = function(info,val) self.db.profile.threshold = val end,
                     get = function(info) return self.db.profile.threshold  end
@@ -280,10 +280,10 @@ end
 -- ## Tracks a poison
 --
 function PoisonTracker:Track(name)
-    local aura = {UnitAura("player", name)};
+    local aura = {AuraUtil.FindAuraByName(name, "player")};
 
     if aura[1] then
-        local time_remaining = TimeToSeconds(aura[7])
+        local time_remaining = TimeToSeconds(aura[6])
 
         if time_remaining < tonumber(self.db.profile.threshold) then
             self:DrawIcon(name, math.floor(time_remaining) .. " sec", .5)
